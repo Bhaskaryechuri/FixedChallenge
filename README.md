@@ -43,6 +43,22 @@ The notch filter then filters out 60Hz noise that arises from power line interfe
 
 A limitation of Mentha's electrical system is the amount of space available within the mechanical chassis, as we wanted to keep the device small and portable. We had to design our circuits wisely to have efficient use of the available space. In the future we would implement our design on a PCB to optimize layout and increase reliability. 
 
+### Budget
+Below is the rough breakdown of costs, for those who want to replicate this design:
+
+Items                     Quantity      Rough Cost
+INA114                    4	            $16
+LM7805                    2	            $4
+Resistor/Capacitor Kits   4	            $2
+LM324                     4	            $2
+Aluminium Sheet           4 sq.ft.	    $30
+Prototype Boards	        2             $14
+Wires	                    as needed     $10
+3D Printing Filament      30g	          $0.6
+nuts and bolts	          as needed     $20
+
+TOTAL	                                  $98.6
+
 
 ## Software:
 We are using python to collect data from an Arduino and plotting the fourier transform of the the EEG signal in realtime. This allows us to see the peaks in amplitude of the different frequencies of brain signals.
