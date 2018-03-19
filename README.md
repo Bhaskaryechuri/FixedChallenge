@@ -46,18 +46,17 @@ A limitation of Mentha's electrical system is the amount of space available with
 ### Budget
 Below is the rough breakdown of costs, for those who want to replicate this design:
 
-Items                     Quantity      Rough Cost
-INA114                    4	            $16
-LM7805                    2	            $4
-Resistor/Capacitor Kits   4	            $2
-LM324                     4	            $2
-Aluminium Sheet           4 sq.ft.	    $30
-Prototype Boards	        2             $14
-Wires	                    as needed     $10
-3D Printing Filament      30g	          $0.6
-nuts and bolts	          as needed     $20
+INA114 x4	= $16
+LM7805 x2	= $4
+Standard resistors/capacitors =	~$2
+LM324 x4 = $2
+Sheet aluminium (4 sq. ft. estimate) = $30
+Protoype boards x2 = $14
+Wires	(as needed) = $10
+3D Printing Filament (30g @ $0.02/g) = $0.6
+Nuts and Bolts = $20
 
-TOTAL	                                  $98.6
+TOTAL	$98.6
 
 
 ## Software:
